@@ -1,0 +1,127 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.space {
+  background-color: rgb(147, 147, 147);
+  align-content: left;
+  height: 20%;
+  justify-content: space-evenly;
+}
+
+.space ul {
+  display: inline-block;
+  align-items: left;
+  /* border: 1px solid cyan; */
+  padding: 3px;
+  margin: 0px;
+  font-size: smaller;
+  justify-content: space-evenly;
+}
+
+.space li {
+  display: inline-block;
+  align-items: left;
+  /* border: 1px solid cyan; */
+  padding: 3px;
+  margin: 1px;
+  font-size: smaller;
+  justify-content: space-evenly;
+}
+
+.signin {
+  order: 0;
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  border: 1px solid lightgray;
+  width: 30%;
+  height: 80%;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.signin h4 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.signin button {
+  background-color: gold;
+  border-color: goldenrod;
+  border-radius: 2px;
+  border-width: 1px;
+  width: 100%;
+  height: 20px;
+  font-size: smaller;
+  src: url(https://www.amazon.com/);
+}
+
+.signin button:hover {
+  cursor: pointer;
+}
+
+.signin label {
+  font-size: smaller;
+}
+
+.signin input {
+  width: 300px;
+  height: 20px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+.signin p {
+  text-align: right;
+  font-size: smaller;
+  display: inline;
+}
+
+#p {
+  display: inline;
+  padding-right: 182px;
+}
+
+.bottom {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#new {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#new > p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#new hr {
+  width: 100px;
+}
+
+footer {
+  font-size: smaller;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.copywrite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
