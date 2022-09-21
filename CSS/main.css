@@ -98,11 +98,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  /* font-size: smaller; */
+  font-family: sans-serif;
 }
 
-#new > p {
+#new p {
   padding-left: 10px;
   padding-right: 10px;
+  font-size: smaller;
+  font-family: sans-serif;
 }
 
 #new hr {
@@ -118,8 +122,20 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
-
+#use { 
+    margin-right: 5px;
+    /* padding-right: 1%; */
+}
+#policy {
+    margin-right: 5px;
+    /* padding-right: 1%; */
+}
+#help{
+    margin-right: 5px;
+    padding-right: 1%;?
+}
 .copywrite {
   display: flex;
   align-items: center;
