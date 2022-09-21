@@ -37,12 +37,11 @@
   padding-top: 2%;
   padding-bottom: 5%;
   border: 1px solid lightgray;
-  width: 28%;
+  width: 350px;
   height: 200px;
   border-radius: 3px;
   display: flex;
   justify-content: center;
-
   font-family: sans-serif;
   font-size: 12px;
 }
